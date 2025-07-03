@@ -1,0 +1,49 @@
+.Entry {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.Entry > img {
+  width: 18.7rem;
+  height: 24rem;
+  border-radius: 1rem;
+  margin-right: 2rem;
+
+  object-fit: cover;
+}
+
+/* Entry location info */
+.Entry_info .marker {
+  width: .9rem;
+  margin-right: .6rem;
+}
+
+.Entry_info {
+  font-size: 1.5rem;
+}
+
+.Entry_info span {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+}
+
+.Entry_info a {
+  margin-left: 1.5rem;
+  color: #2B283A;
+}
+
+.Entry_info a:visited {
+  color: #918E9B;
+}
+
+.Entry_info h1 {
+  font-size: 4rem;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+
+.Entry_info p {
+  text-align: justify;
+}
