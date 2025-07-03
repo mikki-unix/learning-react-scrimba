@@ -1,15 +1,15 @@
-export default function Contact(props) {
+export default function Contact({img, name, phone, email}) {
   return (
     <article className="contact-card">
-      <img src={props.img} alt={"Photo of " + props.name}/>
-      <h3>{props.name}</h3>
+      <img src={img} alt={"Photo of " + name}/>
+      <h3>{name}</h3>
       <div className="info-group">
         <img src="./images/phone-icon.png" alt="phone icon" />
-        <p>{props.phone}</p>
+        <p>{phone}</p>
       </div>
       <div className="info-group">
         <img src="./images/mail-icon.png" alt="mail icon" />
-        <p>{props.email}</p>
+        <p>{email}</p>
       </div>
     </article>
   );
