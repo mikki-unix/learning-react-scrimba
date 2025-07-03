@@ -14,7 +14,7 @@ function App() {
         img="./images/fluffykins.png"
         name="Fluffykins"
         phone="(212) 555-2345"
-        email="fluff@me.co"
+        email="fluff@me.com"
       />
       
       <Contact
