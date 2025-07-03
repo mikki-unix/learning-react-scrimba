@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.5rem 0;
+
+  background-color: #F55A5A;
+  color: white;
+  font-weight: 500;
+}
+
+header > img {
+  height: 4rem;
+  margin-right: .7rem;
+}
