@@ -1,0 +1,31 @@
+header {
+  position: relative;
+}
+
+header .banner {
+  background-color: #1A282D;
+  height: 6rem;
+  border-radius: 1rem;
+}
+
+header section {
+  position: absolute;
+  top: 50%;
+}
+
+header img {
+  height: 8rem;
+  margin-left: 2rem;
+
+  border-radius: 100%;
+  outline: .5rem solid var(--cor-body);
+}
+
+header h1 {
+  display: inline;
+
+  margin: 0;
+  margin-left: 1rem;
+
+  font-size: 3rem;
+}
