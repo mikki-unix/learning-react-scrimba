@@ -1,16 +1,22 @@
 header {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  height: 11rem;
 }
 
 header .banner {
-  background-color: #1A282D;
-  height: 6rem;
-  border-radius: 1rem;
-}
-
-header section {
+  z-index: -1;
   position: absolute;
-  top: 50%;
+  top: 0;
+
+  height: 6rem;
+  width: 100%;
+
+  background-color: #1A282D;
+  border-radius: 1rem;
 }
 
 header img {
