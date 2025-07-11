@@ -6,6 +6,8 @@ import entriesData from "./data.js"
 export default function App() {
   const entries = entriesData.map(entry =>
     <Entry
+      key={entry.id}
+
       img={entry.img}
 
       country={entry.country}
