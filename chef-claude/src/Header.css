@@ -1,0 +1,23 @@
+header {
+  box-sizing: border-box;
+  height: 11rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 .1rem .3rem 0 rgba(0, 0, 0, 0.1),
+    0 .1rem .2rem 0 rgba(0, 0, 0, 0.06);
+}
+
+header img {
+  height: 5.2rem;
+  margin-right: 1.1rem;
+}
+
+header h1 {
+  margin: 0;
+
+  font-size: 3.2rem;
+  font-weight: 400;
+}
