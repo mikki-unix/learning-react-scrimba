@@ -8,7 +8,7 @@ export default function Entry(props) {
       <section className="Entry_info">
         <img className="marker" src="src/assets/marker.png" alt="Marker icon"/>
         <span>{props.country}</span>
-        <a href={props.mapsLink} rel="external" target="_blank">
+        <a href={props.googleMapsLink} rel="external" target="_blank">
           View in Google Maps
         </a>
         

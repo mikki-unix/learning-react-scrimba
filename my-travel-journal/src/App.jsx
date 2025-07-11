@@ -7,15 +7,7 @@ export default function App() {
   const entries = entriesData.map(entry =>
     <Entry
       key={entry.id}
-
-      img={entry.img}
-
-      country={entry.country}
-      mapsLink={entry.googleMapsLink}
-      
-      title={entry.title}
-      dates={entry.dates}
-      text={entry.text}
+      {...entry}
     />
   );
 
