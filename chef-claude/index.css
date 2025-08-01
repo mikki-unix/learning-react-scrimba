@@ -1,8 +1,12 @@
-html {
+:root {
   font-size: 64.5%;
+  --dark-color: #141413
+}
+
+* {
+  font-family: Inter, sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
 }
